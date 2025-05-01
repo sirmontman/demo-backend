@@ -9,7 +9,7 @@ on:
         description: A pointless checkbox.
   push: 
     branches:
-      -main
+      - main
 jobs:
   wait:
     name: Run Api
