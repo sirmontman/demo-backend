@@ -19,5 +19,5 @@ jobs:
     name: Run Api
     runs-on: ubuntu-latest
     steps:
-    - name: Build Api
-      run: sleep 30 ${{inputs.version}}
+    - name: Build Api ${{inputs.version}}
+      run: sleep 30 
